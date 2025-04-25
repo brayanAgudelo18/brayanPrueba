@@ -1,0 +1,40 @@
+/* Estilo para la columna izquierda */
+.col-md-4 {
+    background-color: #2d3e50; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 16px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    height: auto; /* Altura completa */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribuir contenido */
+}
+
+/* Estilo para la columna derecha */
+.col-md-8 {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #343a40; /* Texto oscuro */
+    padding: 16px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow-y: auto; /* Habilitar desplazamiento vertical */
+    height: auto; /* Altura completa */
+}
+
+/* Estilo para los cuadros del lado derecho */
+.col-md-8 .mb-4 {
+    background-color: #f8f9fa; /* Fondo claro */
+    color: #343a40; /* Texto oscuro */
+    border: 1px solid #dee2e6; /* Borde claro */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 8px; /* Reducir el padding interno */
+    margin-bottom: 8px; /* Reducir el margen inferior */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+}
+
+/* Efecto al pasar el cursor sobre los cuadros */
+.col-md-8 .mb-4:hover {
+    background-color: #e9ecef; /* Fondo ligeramente más oscuro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    transform: translateY(-5px); /* Elevar ligeramente el cuadro */
+}
+/* Estilo específico para el cuadro de Experiencia Laboral */
